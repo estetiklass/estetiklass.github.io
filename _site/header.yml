@@ -13,7 +13,7 @@ echeader:
           name: masters
           label: Семинары
           image: '/images/products/default.png'
-          url: '#'
+          url: '/contacts/masters/'
         - order: 3
           name: archive
           label: Архив
@@ -33,7 +33,7 @@ echeader:
           name: masters
           label: Наши специалисты
           image: '/images/products/default.png'
-          url: '/contacts/masters/'
+          url: '#'
         - order: 3
           name: contacts
           label: Контакты

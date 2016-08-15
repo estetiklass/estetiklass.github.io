@@ -34,8 +34,8 @@ customfooter:
           label: Расписание
           url: '#timetable'
         - order: 2
-          name: masters
-          label: Тренеры
+          name: seminars
+          label: Семинары
           url: '/contacts/masters/'
         - order: 3
           name: archive
