@@ -13,7 +13,7 @@ echeader:
           name: masters
           label: Семинары
           image: '/images/products/default.png'
-          url: '/contacts/masters/'
+          url: '#'
         - order: 3
           name: archive
           label: Архив
