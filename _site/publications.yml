@@ -1,1 +1,8 @@
-null
+publications:
+ -  name: "Журнал Красота PRO"
+    image: '/images/publications/pub1.jpg'
+ -  name: "Журнал Красота PRO"
+    image: '/images/publications/pub2.jpg'
+ -  name: "Журнал Красота PRO"
+    image: '/images/publications/pub3.jpg'
+

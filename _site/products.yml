@@ -1,4 +1,4 @@
-products:
+productLines:
   - name: products
     label: Продукты
     order: 2
@@ -6,30 +6,132 @@ products:
     - order: 1
       name: neoline
       label: NEOLINE
-      image: '/images/products/default.png'
-      url: '/products/line1/#neoline'
+      image: '/images/products/neoline/category.png'
+      url: '/products/neoline/'
     - order: 2
-      name: YVOIRE
+      name: yvoire
       label: YVOIRE
-      image: '/images/products/default.png'
-      url: '/products/line1/#YVOIRE'
+      image: '/images/products/yvoire/category.png'
+      url: '/products/yvoire/'
+      categories:
+        - name: yvoire
+          label: ""
+          url: '/products/yvoire/'
+          image: '/images/products/yvoire/hydro.png'
+          parentUrl: '/products/yvoire/'
     - order: 3
       name: COLLOST
       label: COLLOST
-      image: '/images/products/default.png'
+      image: '/images/products/collost/category.png'
       url: '/products/line1/#COLLOST'
     - order: 4
-      name: Princess
+      name: princess
       label: Princess
-      image: '/images/products/default.png'
-      url: '/products/line1/#Princess'
+      image: '/images/products/princess/category.png'
+      url: '/products/princess/'
+      categories:
+        - name: princess
+          label: ""
+          url: '/products/princess/'
+          image: '/images/products/princess/all.png'
+          parentUrl: '/products/princess/'
     - order: 5
-      name: PLEYANA
+      name: pleyana
       label: PLEYANA
-      image: '/images/products/default.png'
-      url: '/products/line1/#PLEYANA'
+      image: '/images/products/pleyana/category.png'
+      url: '/products/pleyana/'
+      categories:
+        - name: masks
+          label: "Маски и обертывания"
+          url: '/products/pleyana/masks/'
+          image: '/images/products/pleyana/masks/Alginatnaya_maska_ST-CONTROL_400g.png'
+          parentUrl: '/products/pleyana/'
+        - name: termwater
+          label: "Термальная вода"
+          url: '/products/pleyana/termwater/'
+          image: '/images/products/pleyana/termwater/SPA_AROMA-TERMAL_200_ml.png'
+          parentUrl: '/products/pleyana/'
+        - name: multipeptide
+          label: "Мультипептидные сыворотки"
+          url: '/products/pleyana/multipeptide/'
+          image: '/images/products/pleyana/multipeptide/syvorotka_anticellulitnaya_s_liporeduktilom_1L.png'
+          parentUrl: '/products/pleyana/'
+        - name: goldcollection
+          label: "Золотая коллекция бальзамов PLEYANA"
+          url: '/products/pleyana/goldcollection/'
+          image: '/images/products/pleyana/goldcollection/Regenerating_balm_with_taxifolin_500_ml.png'
+          parentUrl: '/products/pleyana/'
+        - name: intimecollection
+          label: "Интимная коллеция"
+          url: '/products/pleyana/intimecollection/'
+          image: '/images/products/pleyana/intimecollection/INTIMATE_GEL_for_women_G-SPOT_30ml.png'
+          parentUrl: '/products/pleyana/'
+        - name: endingmeanings
+          label: "Завершающие средства"
+          url: '/products/pleyana/endingmeanings/'
+          image: '/images/products/pleyana/endingmeanings/Sun_Moisturizing_Body_Cream_200_ml.png'
+          parentUrl: '/products/pleyana/'
+        - name: cleaning
+          label: "Очищение и тонизирование"
+          url: '/products/pleyana/cleaning/'
+          image: '/images/products/pleyana/cleaning/matiruushii_tonic.png'
+          parentUrl: '/products/pleyana/'
+        - name: allseasons
+          label: "Всесезонные комбинированные атравматичные пилинги"
+          url: '/products/pleyana/allseasons/'
+          image: '/images/products/pleyana/allseasons/mendal-pilling.png'
+          parentUrl: '/products/pleyana/'
     - order: 6
-      name: АТОверол
+      name: atoverol
       label: АТОверол
-      image: '/images/products/default.png'
-      url: '/products/line1/#АТОверол'
+      image: '/images/products/atoverol/category.png'
+      url: '/products/atoverol/'
+      categories:
+        - name: atoverol
+          label: ""
+          url: '/products/atoverol/'
+          image: '/images/products/atoverol/NA40.png'
+          parentUrl: '/products/atoverol/'
+    - order: 7
+      name: aespira
+      label: AESPIRA
+      image: '/images/products/aespira/category.png'
+      url: '/products/aespira/'
+      categories:
+        - name: bio
+          label: "Биоревитализанты с биометрическими пептидами"
+          url: '/products/aespira/bio/'
+          image: '/images/products/aespira/bio/aespira-classic.png'
+          parentUrl: '/products/aespira/'
+        - name: derm
+          label: "Дермальные филлеры с биометрическими пептидами"
+          url: '/products/aespira/derm/'
+          image: '/images/products/aespira/derm/aespira-HA-3.png'
+          parentUrl: '/products/aespira/'
+        - name: mesoniti
+          label: "Мезонити для тредлифтинга с пептилами"
+          url: '/products/aespira/mesoniti/'
+          image: '/images/products/aespira/mesoniti/Screw--6.png'
+          parentUrl: '/products/aespira/'
+          published: false
+    - order: 8
+      name: hydropeptide
+      label: Hydropeptide
+      image: '/images/products/hydropeptide/category.png'
+      url: '/products/hydropeptide/'
+    - order: 9
+      name: lightfrost
+      label: Lightfrost
+      image: '/images/products/lightfrost/category.png'
+      url: '/products/lightfrost/'
+    - order: 10
+      name: cellgel
+      label: Cellgel
+      image: '/images/products/cellgel/category.png'
+      url: '/products/cellgel/'
+      categories:
+        - name: cellgel
+          label: ""
+          url: '/products/cellgel/'
+          image: '/images/products/cellgel/CG-foto-produkt.jpg'
+          parentUrl: '/products/cellgel/'

@@ -14,14 +14,10 @@ customfooter:
           label: Публикации
           url: '/publications/'
         - order: 3
-          name: partners
-          label: Партнеры
-          url: '/contacts/partners/'
-        - order: 4
           name: ourmasters
           label: Наши специалисты
           url: '#'
-        - order: 5
+        - order: 4
           name: contacts
           label: Контакты
           url: '/contacts/'
@@ -32,7 +28,7 @@ customfooter:
         - order: 1
           name: timetable
           label: Расписание
-          url: '#timetable'
+          url: '/learning/timetable/'
         - order: 2
           name: seminars
           label: Семинары
