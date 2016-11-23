@@ -4,53 +4,66 @@ customfooter:
     - name: about
       label: ЭстетиКласс
       order: 1
+      published: true
       items:
         - order: 1
           name: about_us
           label: О нас
           url: '/contacts/aboutus/'
+          published: false
         - order: 2
           name: publications
           label: Публикации
           url: '/publications/'
+          published: true
         - order: 3
           name: ourmasters
           label: Наши специалисты
           url: '#'
+          published: false
         - order: 4
           name: contacts
           label: Контакты
           url: '/contacts/'
+          published: true
     - name: learning
       label: Обучение
       order: 3
+      published: true
       items:
         - order: 1
           name: timetable
           label: Расписание
           url: '/learning/timetable/'
+          published: true
         - order: 2
           name: seminars
           label: Семинары
           url: '/contacts/masters/'
+          published: true
         - order: 3
           name: archive
           label: Архив
           url: '/learning/archive/'
+          published: true
         - order: 4
           name: classes
           label: Мастер-классы
           url: '/learning/classes/'
+          published: true
 
     - name: info
       label: Информация
       order: 4
+      published: true
       items:
         - order: 1
           name: newsletters
           label: Акции
           url: '#newsletters'
+          published: true
         - order: 2
           name: news
           label: Новости
           url: '#news'
+          published: true

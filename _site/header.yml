@@ -3,39 +3,47 @@ echeader:
     - name: learning
       label: Обучение
       order: 3
+      published: true
       items:
         - order: 1
           name: classes
           label: Мастер-классы
-          image: '/images/products/default.png'
+          image: '/images/learning/classes/header.png'
           url: '/learning/classes/'
+          published: true
         - order: 2
           name: masters
           label: Семинары
-          image: '/images/products/default.png'
+          image: '/images/contacts/masters/header.png'
           url: '/contacts/masters/'
+          published: true
         - order: 3
           name: archive
           label: Архив
-          image: '/images/products/default.png'
+          image: '/images/learning/archive/header.png'
           url: '/learning/archive/'
+          published: true
 
     - name: contacts
       label: Контакты
       order: 4
+      published: true
       items:
         - order: 1
           name: about_us
           label: О нас
-          image: '/images/products/default.png'
+          image: '/images/contacts/header.png'
           url: '/contacts/aboutus/'
+          published: false
         - order: 2
           name: masters
           label: Наши специалисты
-          image: '/images/products/default.png'
+          image: '/images/contacts/our-masters.png'
           url: '#'
+          published: true
         - order: 3
           name: contacts
           label: Контакты
-          image: '/images/products/default.png'
+          image: '/images/contacts/header.png'
           url: '/contacts/'
+          published: true

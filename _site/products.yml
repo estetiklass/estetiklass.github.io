@@ -2,17 +2,20 @@ productLines:
   - name: products
     label: Продукты
     order: 2
+    published: true
     items:
     - order: 1
       name: neoline
       label: NEOLINE
       image: '/images/products/neoline/category.png'
       url: '/products/neoline/'
+      published: false
     - order: 2
       name: yvoire
       label: YVOIRE
       image: '/images/products/yvoire/category.png'
       url: '/products/yvoire/'
+      published: true
       categories:
         - name: yvoire
           label: ""
@@ -24,11 +27,13 @@ productLines:
       label: COLLOST
       image: '/images/products/collost/category.png'
       url: '/products/line1/#COLLOST'
+      published: false
     - order: 4
       name: princess
       label: Princess
       image: '/images/products/princess/category.png'
       url: '/products/princess/'
+      published: true
       categories:
         - name: princess
           label: ""
@@ -40,6 +45,7 @@ productLines:
       label: PLEYANA
       image: '/images/products/pleyana/category.png'
       url: '/products/pleyana/'
+      published: true
       categories:
         - name: masks
           label: "Маски и обертывания"
@@ -86,6 +92,7 @@ productLines:
       label: АТОверол
       image: '/images/products/atoverol/category.png'
       url: '/products/atoverol/'
+      published: true
       categories:
         - name: atoverol
           label: ""
@@ -97,6 +104,7 @@ productLines:
       label: AESPIRA
       image: '/images/products/aespira/category.png'
       url: '/products/aespira/'
+      published: true
       categories:
         - name: bio
           label: "Биоревитализанты с биометрическими пептидами"
@@ -113,22 +121,25 @@ productLines:
           url: '/products/aespira/mesoniti/'
           image: '/images/products/aespira/mesoniti/Screw--6.png'
           parentUrl: '/products/aespira/'
-          published: false
+          published: true
     - order: 8
       name: hydropeptide
       label: Hydropeptide
       image: '/images/products/hydropeptide/category.png'
       url: '/products/hydropeptide/'
+      published: false
     - order: 9
       name: lightfrost
       label: Lightfrost
       image: '/images/products/lightfrost/category.png'
       url: '/products/lightfrost/'
+      published: false
     - order: 10
       name: cellgel
       label: Cellgel
       image: '/images/products/cellgel/category.png'
       url: '/products/cellgel/'
+      published: true
       categories:
         - name: cellgel
           label: ""
