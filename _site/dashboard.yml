@@ -19,7 +19,7 @@ dashboard:
 
   - name: dash4
     label: Семинары
-    url: '/contacts/masters/'
+    url: '/learning/timetable/'
     image: '/images/dashboard/banner.png'
     group: group2
 

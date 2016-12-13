@@ -21,3 +21,92 @@ timetable:
       image: "/images/timetable/default.jpg"
       master: "Имя мастера"
       masterImage: "/images/timetable/masters/default.jpg"
+      published: false
+
+    - name: classes2
+      label: Интенсивный уход зимой
+      date: "2016-12-08 10:00"
+      price: 0
+      address: ул. Гагарина, 38, КЦ "ЭстетиКласс"
+      theme: "Интенсивный уход зимой. Особенности зимнего пилинга."
+      description: "Интенсивный уход зимой. Особенности зимнего пилинга (Гликолевый 70%, 50%, Миндальный 40%, Молочный 40%, Мультифруктовый 40% ) . Активное увлажнение и питание кожи. Интенсивный уход и реконструкция после процедур химического пилинга, микродермабразии, шлифовки, фото-  и лазерного омоложения, мезотерапии."
+      signup: "Запись обязательна по телефонам"
+      contacts: "+7(351)282-86-92, 8952-506-37-23, 8952-516-43-08"
+      image: "/images/timetable/default.jpg"
+      master: "Имя мастера"
+      masterImage: "/images/timetable/masters/default.jpg"
+      published: true
+
+    - name: classes3
+      label: Интенсивный уход зимой
+      date: "2016-12-14 10:00"
+      price: 0
+      address: ул. Гагарина, 38, КЦ "ЭстетиКласс"
+      theme: "Как не подорвать здоровье в новогодние праздники."
+      description: "Как не подорвать здоровье в новогодние праздники. Нутрикосметические комплексы. Системный подход к красоте от PLEYANA."
+      signup: "Запись обязательна по телефонам"
+      contacts: "+7(351)282-86-92, 8952-506-37-23, 8952-516-43-08"
+      image: "/images/timetable/default.jpg"
+      master: "Имя мастера"
+      masterImage: "/images/timetable/masters/default.jpg"
+      published: true
+
+    - name: classes4
+      label: Интенсивный уход зимой
+      date: "2016-12-21 10:00"
+      price: 0
+      address: ул. Гагарина, 38, КЦ "ЭстетиКласс"
+      theme: "Эффективное Экспресс-преображение кожи."
+      description: "Эффективное Экспресс-преображение кожи (35-40 мин), Неинвазивная биоревитализация PLEYANA.
+                    Яркий визуальный эффект уже после первой процедуры – «преображение» кожи – идеальная программа для любого типа и возраста кожи."
+      signup: "Запись обязательна по телефонам"
+      contacts: "+7(351)282-86-92, 8952-506-37-23, 8952-516-43-08"
+      image: "/images/timetable/default.jpg"
+      master: "Имя мастера"
+      masterImage: "/images/timetable/masters/default.jpg"
+      published: true
+
+    - name: classes5
+      label: Интенсивный уход зимой
+      date: "2017-01-11 10:00"
+      price: 0
+      address: ул. Гагарина, 38, КЦ "ЭстетиКласс"
+      theme: "Косметологический бренд PLEYANA."
+      description: "Косметологический бренд PLEYANA – состав препаратов, особенности применения.
+                    Атравматичная чистка лица PLEYANA + Трехуровневое интеллектуальное увлажнение PLEYANA"
+      signup: "Запись обязательна по телефонам"
+      contacts: "+7(351)282-86-92, 8952-506-37-23, 8952-516-43-08"
+      image: "/images/timetable/default.jpg"
+      master: "Имя мастера"
+      masterImage: "/images/timetable/masters/default.jpg"
+      published: true
+
+    - name: classes6
+      label: Интенсивный уход зимой
+      date: "2017-01-18 10:00"
+      price: 0
+      address: ул. Гагарина, 38, КЦ "ЭстетиКласс"
+      theme: "Комплексная терапия PLEYANA."
+      description: "ПРОГРАММА  КОМПЛЕКСНАЯ ТЕРАПИЯ PLEYANA . Активное омоложение  «Мезо+ »"
+      signup: "Запись обязательна по телефонам"
+      contacts: "+7(351)282-86-92, 8952-506-37-23, 8952-516-43-08"
+      image: "/images/timetable/default.jpg"
+      master: "Имя мастера"
+      masterImage: "/images/timetable/masters/default.jpg"
+      published: true
+
+    - name: classes7
+      label: Интенсивный уход зимой
+      date: "2017-01-25 10:00"
+      price: 0
+      address: ул. Гагарина, 38, КЦ "ЭстетиКласс"
+      theme: "Базовый семинар бренда PLEYANA."
+      description: "Базовый семинар бренда PLEYANA.
+                    Презентация авторских методик.
+                    Всесезонные комбинированные атравматичные пилинги PLEYANA®"
+      signup: "Запись обязательна по телефонам"
+      contacts: "+7(351)282-86-92, 8952-506-37-23, 8952-516-43-08"
+      image: "/images/timetable/default.jpg"
+      master: "Имя мастера"
+      masterImage: "/images/timetable/masters/default.jpg"
+      published: true

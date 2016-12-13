@@ -15,7 +15,7 @@ echeader:
           name: masters
           label: Семинары
           image: '/images/contacts/masters/header.png'
-          url: '/contacts/masters/'
+          url: '/learning/timetable/'
           published: true
         - order: 3
           name: archive
@@ -39,9 +39,15 @@ echeader:
           name: masters
           label: Наши специалисты
           image: '/images/contacts/our-masters.png'
-          url: '#'
+          url: '/contacts/specialists/'
           published: true
         - order: 3
+          name: models
+          label: Требуются модели
+          image: '/images/contacts/models/category.png'
+          url: '/contacts/models/'
+          published: true
+        - order: 4
           name: contacts
           label: Контакты
           image: '/images/contacts/header.png'
