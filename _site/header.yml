@@ -1,16 +1,16 @@
 echeader:
   categories:
+    - name: actions
+      label: Акции
+      order: 2
+      published: true
+      url: '#actions'
+      disableMenu: true
     - name: learning
       label: Обучение
       order: 3
       published: true
       items:
-        - order: 1
-          name: classes
-          label: Мастер-классы
-          image: '/images/learning/classes/header.png'
-          url: '/learning/classes/'
-          published: true
         - order: 2
           name: masters
           label: Семинары
@@ -18,12 +18,17 @@ echeader:
           url: '/learning/timetable/'
           published: true
         - order: 3
+          name: models
+          label: Требуются модели
+          image: '/images/contacts/models/category.png'
+          url: '/contacts/models/'
+          published: true
+        - order: 4
           name: archive
           label: Архив
           image: '/images/learning/archive/header.png'
           url: '/learning/archive/'
           published: true
-
     - name: contacts
       label: Контакты
       order: 4
@@ -32,20 +37,14 @@ echeader:
         - order: 1
           name: about_us
           label: О нас
-          image: '/images/contacts/header.png'
+          image: '/images/contacts/aboutus.png'
           url: '/contacts/aboutus/'
-          published: false
+          published: true
         - order: 2
           name: masters
           label: Наши специалисты
           image: '/images/contacts/our-masters.png'
           url: '/contacts/specialists/'
-          published: true
-        - order: 3
-          name: models
-          label: Требуются модели
-          image: '/images/contacts/models/category.png'
-          url: '/contacts/models/'
           published: true
         - order: 4
           name: contacts

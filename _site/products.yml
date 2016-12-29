@@ -129,7 +129,7 @@ productLines:
           image: '/images/products/aespira/derm/aespira-HA-3.png'
           parentUrl: '/products/aespira/'
         - name: mesoniti
-          label: "Мезонити для тредлифтинга с пептилами"
+          label: "Мезонити для тредлифтинга с пептидами"
           url: '/products/aespira/mesoniti/'
           image: '/images/products/aespira/mesoniti/mono.png'
           parentUrl: '/products/aespira/'
@@ -163,3 +163,25 @@ productLines:
           url: '/products/cellgel/'
           image: '/images/products/cellgel/CG-foto-produkt.jpg'
           parentUrl: '/products/cellgel/'
+    - order: 11
+      name: arosha
+      label: Arosha
+      image: '/images/products/arosha/category.png'
+      url: '/products/arosha/'
+      published: true
+      categories:
+        - name: classic
+          label: "Arosha Classic"
+          url: '/products/arosha/classic/'
+          image: '/images/products/arosha/classic/slimcel.png'
+          parentUrl: '/products/arosha/'
+        - name: temptation
+          label: "Arosha Temptation"
+          url: '/products/arosha/temptation/'
+          image: '/images/products/arosha/temptation/lift.png'
+          parentUrl: '/products/arosha/'
+        - name: cremes
+          label: "Arosha Крема"
+          url: '/products/arosha/cremes/'
+          image: '/images/products/arosha/cremes/honey.png'
+          parentUrl: '/products/arosha/'

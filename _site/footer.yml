@@ -36,21 +36,22 @@ customfooter:
           label: Семинары
           url: '/learning/timetable/'
           published: true
+        - order: 2
+          name: models
+          label: Требуются модели
+          image: '/images/contacts/models/category.png'
+          url: '/contacts/models/'
+          published: true
         - order: 3
           name: archive
           label: Архив
           url: '/learning/archive/'
           published: true
-        - order: 4
-          name: classes
-          label: Мастер-классы
-          url: '/learning/classes/'
-          published: true
 
     - name: info
       label: Информация
       order: 4
-      published: false
+      published: true
       items:
         - order: 1
           name: newsletters

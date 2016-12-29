@@ -35,7 +35,7 @@ timetable:
       image: "/images/timetable/default.jpg"
       master: "Имя мастера"
       masterImage: "/images/timetable/masters/default.jpg"
-      published: true
+      published: false
 
     - name: classes3
       label: Интенсивный уход зимой
@@ -49,7 +49,7 @@ timetable:
       image: "/images/timetable/default.jpg"
       master: "Имя мастера"
       masterImage: "/images/timetable/masters/default.jpg"
-      published: true
+      published: false
 
     - name: classes4
       label: Интенсивный уход зимой
@@ -64,26 +64,54 @@ timetable:
       image: "/images/timetable/default.jpg"
       master: "Имя мастера"
       masterImage: "/images/timetable/masters/default.jpg"
-      published: true
+      published: false
 
     - name: classes5
-      label: Интенсивный уход зимой
+      label: Базовый семинар бренда PLEYANA
       date: "2017-01-11 10:00"
       price: 0
       address: ул. Гагарина, 38, КЦ "ЭстетиКласс"
-      theme: "Косметологический бренд PLEYANA."
-      description: "Косметологический бренд PLEYANA – состав препаратов, особенности применения.
-                    Атравматичная чистка лица PLEYANA + Трехуровневое интеллектуальное увлажнение PLEYANA"
+      theme: "Базовый семинар бренда PLEYANA"
+      description: "Презентация авторских методик.
+                    Всесезонные комбинированные атравматичные пилинги PLEYANA"
       signup: "Запись обязательна по телефонам"
       contacts: "+7(351)282-86-92, 8952-506-37-23, 8952-516-43-08"
       image: "/images/timetable/default.jpg"
-      master: "Имя мастера"
+      master: "Падалко Дарья Александровна, Гончарова Е.И."
+      masterImage: "/images/timetable/masters/default.jpg"
+      published: true
+
+    - name: classes51
+      label: Использование коллагенового комплекса КОЛЛОСТ
+      date: "2017-01-12 11:00"
+      price: 0
+      address: ул. Гагарина, 38, КЦ "ЭстетиКласс"
+      theme: "Базовый семинар бренда PLEYANA"
+      description: "Использование восстановительного коллагенового комплекса КОЛЛОСТ® в косметологии"
+      signup: "Запись обязательна по телефонам"
+      contacts: "+7(351)282-86-92, 8952-506-37-23, 8952-516-43-08"
+      image: "/images/timetable/default.jpg"
+      master: "Падалко Дарья Александровна, Гончарова Е.И."
+      masterImage: "/images/timetable/masters/default.jpg"
+      published: true
+
+    - name: classes61
+      label: Контурная коррекция губ
+      date: "2017-01-18 11:00"
+      price: 0
+      address: ул. Гагарина, 38, КЦ "ЭстетиКласс"
+      theme: "Комплексная терапия PLEYANA."
+      description: "Контурная коррекция губ"
+      signup: "Запись обязательна по телефонам"
+      contacts: "+7(351)282-86-92, 8952-506-37-23, 8952-516-43-08"
+      image: "/images/timetable/default.jpg"
+      master: "Душа Ольга Юрьевна"
       masterImage: "/images/timetable/masters/default.jpg"
       published: true
 
     - name: classes6
-      label: Интенсивный уход зимой
-      date: "2017-01-18 10:00"
+      label: КОМПЛЕКСНАЯ ТЕРАПИЯ PLEYANA
+      date: "2017-01-25 10:00"
       price: 0
       address: ул. Гагарина, 38, КЦ "ЭстетиКласс"
       theme: "Комплексная терапия PLEYANA."
@@ -91,22 +119,34 @@ timetable:
       signup: "Запись обязательна по телефонам"
       contacts: "+7(351)282-86-92, 8952-506-37-23, 8952-516-43-08"
       image: "/images/timetable/default.jpg"
-      master: "Имя мастера"
+      master: "Падалко Дарья Александровна, Гончарова Е.И."
       masterImage: "/images/timetable/masters/default.jpg"
       published: true
 
-    - name: classes7
-      label: Интенсивный уход зимой
-      date: "2017-01-25 10:00"
+    - name: classes71
+      label: День 1. Сочетание PDO мезонитей с филерами. Постановка руки. Отработка техник на моделях
+      date: "2017-02-13 11:00"
       price: 0
       address: ул. Гагарина, 38, КЦ "ЭстетиКласс"
       theme: "Базовый семинар бренда PLEYANA."
-      description: "Базовый семинар бренда PLEYANA.
-                    Презентация авторских методик.
-                    Всесезонные комбинированные атравматичные пилинги PLEYANA®"
+      description: "Сочетание PDO мезонитей с филерами. Постановка руки. Отработка техник на моделях"
       signup: "Запись обязательна по телефонам"
       contacts: "+7(351)282-86-92, 8952-506-37-23, 8952-516-43-08"
       image: "/images/timetable/default.jpg"
-      master: "Имя мастера"
+      master: "Бессонов Роман Станиславович. Дерматохирург, международный тренер по инъекционным методикам и инвазивным подтяжкам. Сертифицированный тренер (г.Москва)."
+      masterImage: "/images/timetable/masters/default.jpg"
+      published: true
+
+    - name: classes72
+      label: День 2. Сочетание PDO мезонитей с филерами. Постановка руки. Отработка техник на моделях
+      date: "2017-02-14 11:00"
+      price: 0
+      address: ул. Гагарина, 38, КЦ "ЭстетиКласс"
+      theme: "Базовый семинар бренда PLEYANA."
+      description: "Сочетание PDO мезонитей с филерами. Постановка руки. Отработка техник на моделях"
+      signup: "Запись обязательна по телефонам"
+      contacts: "+7(351)282-86-92, 8952-506-37-23, 8952-516-43-08"
+      image: "/images/timetable/default.jpg"
+      master: "Бессонов Роман Станиславович. Дерматохирург, международный тренер по инъекционным методикам и инвазивным подтяжкам. Сертифицированный тренер (г.Москва)."
       masterImage: "/images/timetable/masters/default.jpg"
       published: true
